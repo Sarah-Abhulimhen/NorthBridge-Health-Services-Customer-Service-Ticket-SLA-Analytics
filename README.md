@@ -343,7 +343,7 @@ Through this project, I strengthened my ability to:
 | NorthBridge Dataset.xlsx | Dataset used for analysis |
 | NorthBridge Dashboard.pdf | PDF export of all dashboards |
 | Dashboard Images | JPEG previews of each dashboard |
-| Presentation.pdf | Executive presentation summarising findings and recommendations |
+| NorthBridge_Presentation.pptx | Executive presentation summarising findings and recommendations |
 | README.md | Project documentation |
 
 ---
