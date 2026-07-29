@@ -252,25 +252,25 @@ This dashboard supports workforce planning by helping management optimise staffi
 
 ## Executive Summary
 
-![Executive Summary](Dashboard%20Images/Executive%20Summary.jpg)
+![Executive Summary](Executive_Summary.jpg)
 
 ---
 
 ## Ticket Operations
 
-![Ticket Operations](Dashboard%20Images/Ticket%20Operations.jpg)
+![Ticket Operations](Ticket_Operations.jpg)
 
 ---
 
 ## SLA Risk Monitoring
 
-![SLA Risk Monitoring](Dashboard%20Images/SLA%20Risk%20Monitoring.jpg)
+![SLA Risk Monitoring](SLA_Risk_Monitoring.jpg)
 
 ---
 
 ## Workload & Capacity
 
-![Workload & Capacity](Dashboard%20Images/Workload%20%26%20Capacity.jpg)
+![Workload & Capacity](Workload&Capacity.jpg)
 
 ---
 
@@ -339,11 +339,14 @@ Through this project, I strengthened my ability to:
 
 | File | Description |
 |------|-------------|
-| NorthBridge.pbix | Interactive Power BI dashboard |
-| NorthBridge Dataset.xlsx | Dataset used for analysis |
-| NorthBridge Dashboard.pdf | PDF export of all dashboards |
-| Dashboard Images | JPEG previews of each dashboard |
-| NorthBridge_Presentation.pptx | Executive presentation summarising findings and recommendations |
+| NorthBridge.pbix | Interactive Power BI dashboard containing all reports and DAX measures |
+| NorthBridge Dataset.xlsx | Customer service dataset used for dashboard development |
+| NorthBridge Dashboard.pdf | PDF export of all Power BI dashboards |
+| NorthBridge_Presentation.pptx | Executive presentation summarising analysis and recommendations |
+| Executive_Summary.jpg | Executive Summary dashboard preview |
+| Ticket_Operations.jpg | Ticket Operations dashboard preview |
+| SLA_Risk_Monitoring.jpg | SLA Risk Monitoring dashboard preview |
+| Workload&Capacity.jpg | Workload & Capacity dashboard preview |
 | README.md | Project documentation |
 
 ---
