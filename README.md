@@ -1,235 +1,86 @@
 # 🏥 NorthBridge Health Services – Customer Service Ticket & SLA Analytics
 
-An end-to-end Business Intelligence solution developed for **NorthBridge Health Services Ltd** to improve operational visibility, monitor Service Level Agreement (SLA) performance, optimize workload distribution, and support data-driven decision-making using **Power BI**.
+![Power BI](https://img.shields.io/badge/Power%20BI-Business%20Intelligence-yellow)
+![DAX](https://img.shields.io/badge/DAX-Data%20Modeling-blue)
+![Power Query](https://img.shields.io/badge/Power%20Query-Data%20Transformation-green)
+![Dashboard](https://img.shields.io/badge/Dashboard-Data%20Visualization-purple)
+![Business Intelligence](https://img.shields.io/badge/Business%20Intelligence-Operational%20Analytics-orange)
 
 ---
 
-## 📌 About
+# Project Overview
 
-NorthBridge Health Services Ltd is a UK-based healthcare administration and operational support organisation serving over **680 healthcare clients** across Manchester, Leeds, Birmingham, and Edinburgh. The organisation processes more than **11,000 customer service requests every month**, covering appointments, billing, insurance, referrals, complaints, and medical records administration.
+This project analyzes customer service operations for **NorthBridge Health Services Ltd**, a fictional healthcare administration and operational support organisation, using **Power BI**. The objective was to monitor service performance, evaluate Service Level Agreement (SLA) compliance, analyse ticket operations, assess workforce capacity, and provide actionable business recommendations to improve operational efficiency.
 
-As customer demand continued to increase, NorthBridge experienced several operational challenges including rising response times, growing ticket backlogs, SLA breaches, uneven workload distribution, and fragmented reporting processes.
-
-This project delivers an interactive **Power BI Business Intelligence solution** that centralises operational data into executive dashboards, enabling managers to monitor customer service performance, identify operational bottlenecks, optimise resource allocation, and make faster, data-driven decisions.
+Interactive dashboards were developed using **Power BI, Power Query, DAX, and data modelling techniques** to transform operational ticket data into meaningful business insights. The final solution provides executive-level reporting that enables management to monitor customer service performance, identify operational bottlenecks, and support strategic decision-making.
 
 ---
 
-# 🎯 Business Objectives
+# Business Problem
 
-- Centralise fragmented operational data
-- Improve visibility into customer service performance
-- Monitor SLA compliance across the organisation
-- Reduce SLA breaches
-- Monitor backlog growth
-- Improve workload and capacity planning
-- Deliver executive-level interactive dashboards
-- Support operational decision-making through KPI reporting
+NorthBridge Health Services processes thousands of customer service requests every month across appointments, billing, insurance, referrals, complaints, and medical records.
 
----
+As customer demand increased, the organisation experienced several operational challenges, including:
 
-# 📊 Dashboard Overview
+- Increasing ticket volumes
+- Rising response and resolution times
+- Frequent SLA breaches
+- Growing ticket backlogs
+- Uneven workload distribution across agents
+- Limited visibility into operational performance
+- Manual reporting processes that delayed decision-making
 
----
-
-# Executive Summary Dashboard
-
-The Executive Summary dashboard provides senior management with a consolidated view of operational performance by bringing together the organisation's most critical customer service KPIs into a single reporting interface. It enables decision-makers to quickly assess ticket volumes, SLA performance, response efficiency, and overall service delivery while identifying operational areas requiring immediate attention.
-
-### KPIs
-
-- Total Tickets
-- Resolved Tickets
-- Open Tickets
-- SLA Compliance Rate
-- SLA Breach Rate
-- Average First Response Time
-- Average Resolution Time
-
-### Key Insights
-
-- During the reporting period, NorthBridge processed **3,500 customer service tickets**, successfully resolving **3,301**, representing a resolution rate of over **94%**, demonstrating strong operational throughput.
-
-- Despite the high resolution rate, **SLA compliance remained at 79.5%**, meaning approximately **one in every five tickets failed to meet contractual service targets**. This indicates that while tickets are eventually resolved, service delivery timeliness remains a key operational challenge.
-
-- Trend analysis showed that ticket demand declined after the first quarter before stabilising throughout the remaining reporting period. However, backlog levels continued increasing despite lower incoming ticket volumes, indicating that unresolved work accumulated faster than it could be cleared.
-
-- Manchester consistently generated the highest ticket volumes, making it the primary operational hub requiring process optimisation, workload balancing, and strategic resource allocation.
-
-- Executive KPI reporting highlighted a clear relationship between ticket volume, escalations, and SLA performance, providing management with a comprehensive overview of operational health.
-
-### Business Value
-
-The Executive Summary dashboard serves as the primary reporting interface for senior management, enabling rapid performance assessment, proactive operational monitoring, and informed decision-making to improve customer service delivery and SLA performance.
+Management required an interactive reporting solution capable of monitoring operational performance, identifying service risks, and supporting proactive decision-making across the customer service function.
 
 ---
 
-# Ticket Operations Dashboard
+# Project Objectives
 
-The Ticket Operations dashboard provides detailed operational visibility into customer service activities, allowing managers to monitor ticket demand, communication channels, service categories, and regional workload distribution.
-
-### KPIs
-
-- Total Tickets
-- Open Tickets
-- Resolved Tickets
-- Total Escalations
-- Average First Response Time
-- Average Resolution Time
-
-### Key Insights
-
-- Appointment Change requests represented the largest source of customer demand, making them the highest-priority process improvement opportunity.
-
-- Email remained the dominant communication channel, presenting opportunities to improve efficiency through self-service solutions and automation.
-
-- Manchester consistently processed the highest ticket volumes, indicating either greater customer demand or operational bottlenecks requiring further investigation.
-
-- Most tickets progressed successfully through the customer service lifecycle, demonstrating effective case management despite increasing operational demand.
-
-- Historical trends showed ticket demand stabilising after the initial decline, supporting more predictable workforce planning.
-
-### Business Value
-
-This dashboard enables operational managers to identify workload patterns, monitor customer demand, improve communication channel efficiency, and allocate resources more effectively across regional service centres.
+- Centralise customer service reporting into a single Power BI solution.
+- Monitor operational performance through executive KPIs.
+- Track SLA compliance and breach rates.
+- Analyse ticket volumes across categories, priorities, channels, and regions.
+- Evaluate workforce capacity and workload distribution.
+- Improve operational visibility for management.
+- Support data-driven decision-making through interactive dashboards.
 
 ---
 
-# SLA Risk Monitoring Dashboard
+# Key Questions
 
-The SLA Risk Monitoring dashboard focuses on contractual service performance by tracking SLA compliance, breach rates, escalations, and operational risks before service failures occur.
-
-### KPIs
-
-- SLA Compliance Rate
-- SLA Breach Rate
-- Total SLA Breaches
-- At-Risk Tickets
-- Escalation Rate
-
-### Key Insights
-
-- P3 Standard tickets contributed the largest proportion of SLA breaches, representing the highest-impact area for operational improvement.
-
-- SLA compliance varied across ticket categories, highlighting inconsistencies in service delivery processes.
-
-- At-Risk tickets provided an early warning mechanism by identifying tickets approaching SLA deadlines before contractual breaches occurred, enabling proactive intervention.
-
-- Monthly SLA performance fluctuated throughout the reporting period rather than showing consistent improvement, suggesting recurring operational constraints.
-
-- Escalation trends closely mirrored SLA performance, demonstrating the direct relationship between delayed ticket resolution and increased operational risk.
-
-### Business Value
-
-The dashboard enables proactive SLA management by allowing operational teams to identify emerging risks, prioritise intervention activities, reduce contractual breaches, and improve overall service performance.
+- How many customer service tickets were processed during the reporting period?
+- What percentage of tickets met SLA targets?
+- Which ticket categories generated the highest operational demand?
+- Which communication channels handled the largest share of customer requests?
+- Which regions generated the highest ticket volumes?
+- Which ticket priorities contributed most to SLA breaches?
+- How effectively were operational resources utilised?
+- Where are the greatest opportunities to improve customer service performance?
 
 ---
 
-# Workload & Capacity Dashboard
-
-The Workload & Capacity dashboard evaluates operational efficiency by monitoring agent utilisation, workload distribution, staffing capacity, and resource availability.
-
-### KPIs
-
-- Active Agents
-- Available Daily Capacity
-- Capacity Gap
-- Capacity Utilisation
-- Average Tickets per Agent
-
-### Key Insights
-
-- Capacity utilisation remained significantly below available operational capacity, suggesting opportunities to improve workforce allocation.
-
-- Workload distribution varied considerably across agents, indicating that resources were not being utilised evenly.
-
-- The large capacity gap suggested that operational challenges were driven more by workload distribution and prioritisation than by staffing shortages.
-
-- Capacity monitoring provides managers with evidence-based insights for scheduling, workforce planning, and operational resource allocation.
-
-- Better workload balancing could reduce SLA breaches while improving overall operational efficiency.
-
-### Business Value
-
-This dashboard supports strategic workforce planning by helping management optimise staffing levels, improve workload distribution, and maximise operational efficiency.
-
----
-
-# 🛠 Tools & Technologies
+# Tools & Technologies
 
 - Power BI
 - Power Query
 - DAX
 - Microsoft Excel
 - Data Modelling
-- KPI Design
+- Star Schema
+- KPI Development
+- Dashboard Design
+- Data Visualization
 - Business Intelligence
-- Data Visualisation
+- Git & GitHub
 
 ---
 
-# 📈 Key Business Outcomes
-
-- Improved operational visibility through executive dashboards
-- Centralised customer service reporting
-- Enhanced SLA monitoring and performance tracking
-- Better workload distribution and workforce planning
-- Reduced reliance on manual reporting processes
-- Faster operational decision-making through interactive KPI reporting
-- Improved management visibility into customer service performance
-
----
-
-# 📂 Repository Structure
-
-```text
-📁 NorthBridge-Customer-Service-Ticket-SLA-Analytics
-
-│── README.md
-│── NorthBridge.pbix
-│── NorthBridge Dataset.xlsx
-│
-│── Dashboard Images
-│     ├── Executive Summary.jpg
-│     ├── Ticket Operations.jpg
-│     ├── SLA Risk Monitoring.jpg
-│     ├── Workload & Capacity.jpg
-│
-│── Dashboard PDF
-│     └── NorthBridge Dashboards.pdf
-```
-
----
-
-# 📸 Dashboard Preview
-
-## Executive Summary
-
-*(Insert Dashboard Image)*
-
----
-
-## Ticket Operations
-
-*(Insert Dashboard Image)*
-
----
-
-## SLA Risk Monitoring
-
-*(Insert Dashboard Image)*
-
----
-
-## Workload & Capacity
-
-*(Insert Dashboard Image)*
-
----
-
-# 💡 Skills Demonstrated
+# Skills Demonstrated
 
 - Data Cleaning
+- Data Transformation
 - Data Modelling
+- Star Schema Design
 - Power Query
 - DAX
 - KPI Development
@@ -239,32 +90,278 @@ This dashboard supports strategic workforce planning by helping management optim
 - SLA Performance Analysis
 - Executive Reporting
 - Data Storytelling
-- Business Insight Generation
+- Stakeholder Reporting
 
 ---
 
-# 🚀 Future Improvements
+# Data Preparation
 
-Potential enhancements include:
+The dataset underwent several preparation and modelling steps before dashboard development:
 
-- Real-time dashboard refresh
-- Power BI Service deployment
-- Automated reporting
-- Power Automate notifications
-- Role-Level Security (RLS)
-- Advanced predictive analytics
-- Real-time operational monitoring
+- Validated and cleaned customer service ticket data.
+- Reviewed data quality and corrected inconsistent data types.
+- Built a Star Schema data model using fact and dimension tables.
+- Established relationships between operational datasets.
+- Created reusable DAX measures for KPI calculations.
+- Developed calculated measures for SLA performance, ticket operations, and workload analysis.
+- Designed interactive Power BI dashboards using slicers, KPI cards, and dynamic visuals.
+- Organised dashboards to support both executive and operational reporting.
 
 ---
 
-## 👤 Author
+# Dataset Summary
+
+| Metric | Value |
+|------|------:|
+| Total Tickets | 3,500 |
+| Resolved Tickets | 3,301 |
+| Open Tickets | 199 |
+| SLA Compliance Rate | 79.5% |
+| SLA Breach Rate | 20.5% |
+| Active Agents | 48 |
+| Regions | 4 |
+| Communication Channels | 4 |
+| Ticket Categories | 8 |
+| Dashboards Developed | 4 |
+
+> *The Power BI solution provides interactive filtering, allowing stakeholders to analyse operational performance by region, ticket category, communication channel, priority level, and reporting period.*
+
+---
+
+# Dashboard Overview
+## Executive Summary Dashboard
+
+The Executive Summary dashboard provides senior management with a consolidated view of customer service performance by bringing together the organisation's most critical operational KPIs into a single reporting interface. It enables decision-makers to quickly assess service performance, monitor SLA compliance, evaluate operational efficiency, and identify areas requiring immediate attention.
+
+### Dashboard Features
+
+- Total Tickets
+- Resolved Tickets
+- Open Tickets
+- SLA Compliance Rate
+- SLA Breach Rate
+- Average First Response Time
+- Average Resolution Time
+- Monthly Ticket Trends
+- Regional Performance Overview
+
+### Key Insights
+
+- NorthBridge processed **3,500 customer service tickets** during the reporting period, successfully resolving **3,301**, representing a resolution rate of over **94%**.
+- Although ticket resolution remained high, **SLA compliance was 79.5%**, indicating that approximately one in every five tickets failed to meet contractual service targets.
+- Ticket demand declined after the first quarter before stabilising, suggesting a more predictable workload during the latter part of the reporting period.
+- Backlog levels continued to grow despite lower ticket volumes, highlighting inefficiencies in clearing outstanding requests.
+- Manchester consistently generated the highest ticket volume, making it the primary operational hub requiring process optimisation and resource planning.
+
+### Business Value
+
+This dashboard provides executives with a high-level overview of operational performance, enabling faster strategic decision-making, improved SLA monitoring, and better visibility into overall customer service performance.
+
+---
+
+## Ticket Operations Dashboard
+
+The Ticket Operations dashboard provides a detailed analysis of day-to-day customer service activity by monitoring ticket volumes, communication channels, service categories, regional distribution, and operational performance across the organisation.
+
+### Dashboard Features
+
+- Total Tickets
+- Open Tickets
+- Resolved Tickets
+- Total Escalations
+- Average First Response Time
+- Average Resolution Time
+- Ticket Categories
+- Communication Channels
+- Regional Ticket Distribution
+- Monthly Ticket Volume
+
+### Key Insights
+
+- Appointment Change requests represented the highest proportion of customer enquiries, making them the largest contributor to operational workload.
+- Email remained the most frequently used communication channel, indicating an opportunity to improve efficiency through automation or self-service options.
+- Manchester processed the largest volume of customer requests throughout the reporting period.
+- Most tickets progressed successfully through the customer service lifecycle despite increasing operational demand.
+- Monthly ticket trends stabilised after the initial reporting period, supporting more accurate workforce planning and forecasting of future workloads.
+
+### Business Value
+
+This dashboard enables operational managers to understand demand patterns, allocate resources effectively, identify service bottlenecks, and improve overall customer service efficiency.
+
+---
+
+## SLA Risk Monitoring Dashboard
+
+The SLA Risk Monitoring dashboard focuses on contractual service performance by monitoring SLA compliance, breach rates, escalation activity, and tickets approaching SLA deadlines. The dashboard supports proactive operational management by helping teams identify risks before service failures occur.
+
+### Dashboard Features
+
+- SLA Compliance Rate
+- SLA Breach Rate
+- Total SLA Breaches
+- At-Risk Tickets
+- Escalation Rate
+- SLA Performance by Priority
+- SLA Performance by Category
+- Monthly SLA Trend Analysis
+
+### Key Insights
+
+- P3 Standard tickets contributed the highest proportion of SLA breaches, representing the greatest opportunity for operational improvement.
+- SLA compliance varied across ticket categories, highlighting inconsistencies in service delivery processes.
+- At-risk tickets provided an early warning mechanism that enabled operational teams to intervene before contractual deadlines were exceeded.
+- Monthly SLA performance fluctuated throughout the reporting period, suggesting recurring operational challenges rather than isolated incidents.
+- Escalation activity closely mirrored SLA performance, demonstrating the relationship between delayed ticket resolution and increased operational risk.
+
+### Business Value
+
+This dashboard enables proactive SLA management by helping operational teams prioritise high-risk tickets, reduce contractual breaches, improve response times, and strengthen customer service performance.
+
+---
+
+## Workload & Capacity Dashboard
+
+The Workload & Capacity dashboard evaluates workforce utilisation by monitoring agent capacity, workload distribution, operational efficiency, and staffing requirements. It provides management with valuable insights into how effectively available resources are being utilised.
+
+### Dashboard Features
+
+- Active Agents
+- Available Daily Capacity
+- Capacity Utilisation
+- Capacity Gap
+- Average Tickets per Agent
+- Workload Distribution
+- Agent Performance
+- Operational Capacity Overview
+
+### Key Insights
+
+- Capacity utilisation remained below available operational capacity, indicating opportunities to improve workforce allocation.
+- Workload distribution varied significantly across agents, suggesting that resources were not being utilised evenly.
+- The large capacity gap indicated that operational challenges were driven more by workload distribution and prioritisation than staffing shortages.
+- Monitoring agent workloads provides management with valuable insights for workforce planning and scheduling decisions.
+- Improving workload balancing could reduce SLA breaches while increasing overall operational efficiency.
+
+### Business Value
+
+This dashboard supports workforce planning by helping management optimise staffing levels, balance workloads, improve operational efficiency, and maximise customer service performance.
+
+---
+
+# Dashboard Preview
+
+## Executive Summary
+
+![Executive Summary](Dashboard%20Images/Executive%20Summary.jpg)
+
+---
+
+## Ticket Operations
+
+![Ticket Operations](Dashboard%20Images/Ticket%20Operations.jpg)
+
+---
+
+## SLA Risk Monitoring
+
+![SLA Risk Monitoring](Dashboard%20Images/SLA%20Risk%20Monitoring.jpg)
+
+---
+
+## Workload & Capacity
+
+![Workload & Capacity](Dashboard%20Images/Workload%20%26%20Capacity.jpg)
+
+---
+
+# Interactive Features
+
+- Executive KPI Cards
+- Interactive Slicers
+- Dynamic Cross-Filtering
+- Drill-Down Visualizations
+- Regional Performance Analysis
+- Category & Priority Filtering
+- Communication Channel Analysis
+- Dynamic Operational Reporting
+
+---
+
+# Key Findings
+
+- NorthBridge successfully resolved over **94%** of customer service tickets during the reporting period, demonstrating strong operational throughput.
+- SLA compliance remained below the desired organisational target, indicating that improvements are needed to reduce delayed responses and contractual breaches.
+- Appointment Change requests generated the highest operational workload, making them the primary opportunity for process optimisation.
+- Manchester consistently recorded the highest ticket volumes across all regions, highlighting the need for targeted resource allocation.
+- Email remained the dominant communication channel, suggesting opportunities to improve efficiency through automation and self-service solutions.
+- P3 Standard tickets accounted for the highest proportion of SLA breaches, representing the greatest operational risk.
+- Capacity utilisation indicated that workforce resources could be distributed more effectively to improve productivity and reduce response times.
+- Executive KPI monitoring enabled stakeholders to quickly identify operational trends and make informed business decisions.
+
+---
+
+# Recommendations
+
+1. Optimise Appointment Change workflows to reduce operational demand and improve processing efficiency.
+2. Implement automated alerts for tickets approaching SLA deadlines to minimise contractual breaches.
+3. Improve workload balancing across customer service agents to maximise available operational capacity.
+4. Investigate recurring causes of SLA breaches within P3 Standard tickets and introduce targeted process improvements.
+5. Expand self-service options for routine customer enquiries to reduce dependency on email support.
+6. Regularly review executive KPIs to support proactive operational management and continuous service improvement.
+7. Monitor regional workload trends to ensure staffing resources remain aligned with customer demand.
+
+---
+
+# Business Impact
+
+This Business Intelligence solution provides NorthBridge Health Services with a centralised reporting platform that significantly improves operational visibility across customer service activities. By consolidating ticket operations, SLA performance, and workforce capacity into a single interactive Power BI solution, management can quickly identify service bottlenecks, monitor organisational performance, and make evidence-based decisions.
+
+The dashboards enable proactive SLA management, improved workload allocation, enhanced operational efficiency, and reduced reliance on manual reporting. These insights support continuous service improvement while helping the organisation deliver a more responsive and reliable customer experience.
+
+---
+
+# Key Learnings
+
+Through this project, I strengthened my ability to:
+
+- Build end-to-end Business Intelligence solutions using Power BI.
+- Design Star Schema data models for analytical reporting.
+- Develop reusable DAX measures for KPI reporting.
+- Perform operational performance and SLA analysis.
+- Design executive-level interactive dashboards.
+- Transform complex operational data into meaningful business insights.
+- Communicate analytical findings to both technical and non-technical stakeholders.
+- Apply data storytelling techniques to support business decision-making.
+
+---
+
+# Repository Contents
+
+| File | Description |
+|------|-------------|
+| NorthBridge.pbix | Interactive Power BI dashboard |
+| NorthBridge Dataset.xlsx | Dataset used for analysis |
+| NorthBridge Dashboard.pdf | PDF export of all dashboards |
+| Dashboard Images | JPEG previews of each dashboard |
+| Presentation.pdf | Executive presentation summarising findings and recommendations |
+| README.md | Project documentation |
+
+---
+
+# Author
 
 **Sarah Abhulimhen**
 
-**MBA (Distinction) | Data Analyst**
-
-🔗 GitHub: https://github.com/Sarah-Abhulimhen
-
-🔗 LinkedIn: *(Add your LinkedIn profile)*
+MBA (Distinction) | Data Analyst
 
 ---
+
+# Connect With Me
+
+- **LinkedIn:** https://www.linkedin.com/in/sarah-abhulimhen-7353213ba/
+- **GitHub Portfolio:** https://github.com/Sarah-Abhulimhen
+- **Email:** sarahabhulimhen9@gmail.com
+
+---
+
+© 2026 Sarah Abhulimhen
